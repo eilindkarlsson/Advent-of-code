@@ -44,7 +44,7 @@ def read_file_to_grid(filename):
     return grid
 
 # Read the file and create the grid
-filename = "2024/input-day4-24.txt"
+filename = "2024/input_day4_24.txt"
 grid = read_file_to_grid(filename)
 
 # Print the grid (for debugging purposes)

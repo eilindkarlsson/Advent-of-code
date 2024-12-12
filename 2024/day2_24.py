@@ -31,7 +31,7 @@ def safe_dampened(numbers):
 lines_as_lists = []
 
 # Open the file and read each line
-with open("2024/input-day2-24.txt", "r") as file:
+with open("2024/input_day2_24.txt", "r") as file:
     for line in file:
         # Split the line into elements and convert them to integers (if numeric)
         line_list = list(map(int, line.split()))

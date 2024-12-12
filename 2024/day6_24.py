@@ -68,7 +68,7 @@ def count_unique_pos(grid):
 
 ## start of actual code
 # first use predefine function to read txt-file into a grid
-filename = '2024/input-day6-24.txt'
+filename = '2024/input_day6_24.txt'
 grid = read_file_to_grid(filename)
 
 #use predefined function to find starting position

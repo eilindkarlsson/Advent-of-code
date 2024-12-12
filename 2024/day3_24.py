@@ -6,7 +6,7 @@ def modify_input(input):
 
 
 # Open the file and read its contents into a string
-with open("2024/input-day3-24.txt", "r") as file:
+with open("2024/input_day3_24.txt", "r") as file:
     file_contents = file.read()
 
 # add do() to the start of the file to capture first mul() (unless there's a don't() appearing)

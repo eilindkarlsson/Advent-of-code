@@ -39,7 +39,7 @@ def get_middle_number(numbers):
 
 
 # Step 1: Read off partial ordering rules from the input-file
-file_path = "2024/input-day5-24.txt"
+file_path = "2024/input_day5_24.txt"
 rules_list = read_ordering_rules(file_path)
 #print(rules_list)
 

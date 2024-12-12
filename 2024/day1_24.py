@@ -29,7 +29,7 @@ list1 = []
 list2 = []
 
 # Open the file and read line by line
-with open("2024/input-day1-24.txt", "r") as file:
+with open("2024/input_day1_24.txt", "r") as file:
     for line in file:
         # Strip leading/trailing whitespaces and check the content of each line
         line = line.strip()  # Remove any extra spaces/newlines from the start and end of the line
