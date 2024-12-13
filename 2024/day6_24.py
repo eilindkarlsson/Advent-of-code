@@ -43,7 +43,7 @@ def navigate_grid(grid, start_row, start_col):
 
         # Get the symbol ahead
         symbol_ahead = grid[next_row][next_col]
-        #print(f"At position ({row}, {col}) the symbol ahead is {symbol_ahead}")
+        print(f"At position ({row}, {col}) the symbol ahead is {symbol_ahead}")
 
         if symbol_ahead in {'.', 'X', '^'}:  # Move straight
             row, col = next_row, next_col
@@ -54,7 +54,7 @@ def navigate_grid(grid, start_row, start_col):
             print("Encountered unknown symbol, stopping.")
             break
 
-    #print(f"Ended at position ({row}, {col})")
+    print(f"Ended at position ({row}, {col})")
 
 #define function to count the number of X's in the end
 def count_unique_pos(grid):
